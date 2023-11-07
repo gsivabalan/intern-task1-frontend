@@ -43,7 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "## 🔆 🍃 Nodejs(Express.js) + mongoDB + mongoose + JWT + react.js + material-ui + axios(API call)",
-  "main": "index.js"
+  }
+  
 }
