@@ -41,7 +41,7 @@ class Dashboard extends Component {
 
   getUserProfile = () => {
     this.setState({ loading: true });
-    axios.get(`http://localhost:8000/get-user-profile`, {
+    axios.get(`http://localhost:8080/get-user-profile`, {
       headers: {
         'token': this.state.token
       }
@@ -58,7 +58,7 @@ class Dashboard extends Component {
   }
 
   updateProfile = () => {
-    axios.post('http://localhost:8000/update-user-profile', {
+    axios.post('http://localhost:8080/update-user-profile', {
       name: this.state.name,
       age: this.state.age,
       gender: this.state.gender,
